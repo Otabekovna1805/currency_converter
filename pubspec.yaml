@@ -1,0 +1,55 @@
+name: untitled6
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  shared_preferences: ^2.2.0
+  cached_network_image: ^3.2.3
+  image_picker: ^1.0.1
+  json_annotation: ^4.8.1
+  freezed_annotation: ^2.4.1
+  video_player: ^2.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  build_runner: ^2.4.6
+  json_serializable: ^6.7.1
+  freezed: ^2.4.1
+  test: ^1.24.1
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/image/cgd.png
+    - assets/image/usd.png
+    - assets/icons/icon.png
+    - assets/icons/down.png
+  fonts:
+    - family: Roboto
+      fonts:
+        - weight: 900
+        - asset: assets/fonts/roboto/Roboto-Black.ttf
+        - asset: assets/fonts/roboto/Roboto-BlackItalic.ttf
+          weight: 700
+        - asset: assets/fonts/roboto/Roboto-Bold.ttf
+        - asset: assets/fonts/roboto/Roboto-BoldItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Italic.ttf
+          weight: 300
+        - asset: assets/fonts/roboto/Roboto-Light.ttf
+        - asset: assets/fonts/roboto/Roboto-LightItalic.ttf
+          weight: 500
+        - asset: assets/fonts/roboto/Roboto-Medium.ttf
+        - asset: assets/fonts/roboto/Roboto-MediumItalic.ttf
+        - asset: assets/fonts/roboto/Roboto-Regular.ttf
+          weight: 100
+        - asset: assets/fonts/roboto/Roboto-Thin.ttf
+        - asset: assets/fonts/roboto/Roboto-ThinItalic.ttf
